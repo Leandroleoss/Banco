@@ -80,8 +80,8 @@ namespace Banco
             {
                 Console.WriteLine();
                 Console.WriteLine("Dados da conta:");
-                Console.WriteLine($"Conta  {contas[i].NumeroConta}" 
-                    + $", Titular:  {contas[i].Nome}" 
+                Console.WriteLine($"Conta  {contas[i].NumeroConta}"
+                    + $", Titular:  {contas[i].Nome}"
                     + $", Saldo: $  {contas[i].ValorInicial:F2}");
             }
         }
