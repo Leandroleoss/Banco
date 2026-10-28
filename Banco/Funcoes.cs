@@ -88,7 +88,15 @@ namespace Banco
 
         public static void DepositoConta(List<Conta> contas)
         {
-
+            Console.WriteLine();
+            Console.Write("Entre um valor para depósito: ");
+            double deposito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            
+            Console.WriteLine();
+            Console.WriteLine("Dados da conta atualizados:");
+            Console.Write($"Conta {contas[0].NumeroConta}," 
+                + $"Titular: {contas[0].Nome},"
+                + $"Saldo: $ {contas[0].ValorInicial}");
         }
 
     }

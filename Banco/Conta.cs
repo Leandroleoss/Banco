@@ -16,6 +16,11 @@ namespace Banco
             ValorInicial = valorinicial;
         }
 
+        public void NovoDeposito (double deposito)
+        {
+            ValorInicial += deposito;
+            Console.WriteLine(ValorInicial);
+        }
     }
 }
 

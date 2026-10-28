@@ -10,6 +10,7 @@ namespace Banco
             List<Conta> contas = new List<Conta>();
             Funcoes.CadastrarConta(contas);
             Funcoes.ExibirContas(contas);
+            Funcoes.DepositoConta(contas);
         }
     }
 }
